@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-
+import React, { Component } from 'react';
+import Header from '../components/Header';
 
 export default class Page extends Component {
     
@@ -7,7 +7,7 @@ export default class Page extends Component {
     render() {
         return (
             <div>
-                <p>Hey I'm the page Component</p>
+                <Header />
                 {this.props.children}
             </div>
         )
