@@ -1,3 +1,13 @@
 import React from "react";
+import Link from 'next/link';
 
-class Home extends React.Component {}
+const Home = props => (
+    <div>
+        <Link href='/sell'>
+            <a>Sell!</a>
+        </Link>
+        <p>Hey!</p>
+    </div>
+)
+
+export default Home;
